@@ -1,0 +1,39 @@
+* {
+    font-family:"Roboto";
+}
+.bg-container {
+    padding:20px 10px 20px 10px;
+    display:flex;
+    background-color:#b1fae7;
+    height:100vh;
+}
+.left-container {
+    background-image:url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54368.jpg");
+    background-size:cover;
+    width:70vw;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.right-container {
+    width:30vw;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.left-container-matter {
+    width:300px;
+}
+.right-container {
+    background-color:white;
+}
+.sign-in-anchor {
+    color:rgb(79, 190, 224);
+    cursor:pointer;
+}
+.asteric {
+    color:red;
+}
